@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.johnosezele.keepnote.NoteActivity">
+    <item
+        android:id="@+id/action_next"
+        android:icon="@android:drawable/ic_media_next"
+        android:iconTint="@color/design_default_color_on_secondary"
+        android:title="Next"
+        android:visible="false"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:iconTint="@color/design_default_color_on_secondary"
+        android:title="Cancel"
+        app:showAsAction="never|ifRoom|withText" />
+    <item
+        android:id="@+id/action_send_mail"
+        android:icon="@android:drawable/ic_menu_share"
+        android:iconTint="@color/design_default_color_on_secondary"
+        android:orderInCategory="100"
+        android:title="Send as email"
+        app:showAsAction="ifRoom|withText" />
+</menu>

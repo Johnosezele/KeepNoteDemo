@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.johnosezele.keepnote.SettingsActivity$GeneralFragment"
+        app:icon="@drawable/ic_baseline_info_24"
+        app:key="general_header"
+        app:title="@string/general_header" />
+    <Preference
+        app:fragment="com.johnosezele.keepnote.SettingsActivity$MessagesFragment"
+        app:icon="@drawable/ic_baseline_message_24"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="com.johnosezele.keepnote.SettingsActivity$SyncFragment"
+        app:icon="@drawable/ic_baseline_sync_24"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+</PreferenceScreen>
